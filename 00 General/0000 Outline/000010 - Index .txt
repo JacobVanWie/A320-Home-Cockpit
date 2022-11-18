@@ -1,0 +1,46 @@
+00 - General
+	0000 - Outline
+		0000 00 - Readme
+		0000 10 - Index
+10 - Frame
+20 - Overhead panel
+30 - Glareshield
+40 - Main Instrument Panel
+50 - Pedestal
+	5000 - Outline
+		5000 02 Parts List
+	5001 - Frame
+	5010 - Multifuction Control Display Unit
+		5010 00 Instructions
+		5000 02 Parts List
+		5010 10 CAD Files
+		5010 11 3D Print Files
+		5010 97 Electrical Wiring
+		5010 99 Media
+	5011 - Audio Control Panel
+	5012 - Radio Management Panel
+	5013 - Left Light Control Panel
+	5014 - Radar Management Panel
+	5015 - Cockpit Door Panel
+	5016 - Right Light Control Panel
+	5017 - Trandponder Panel
+	5018 - ECAM Selector
+	5019 - Display Selector
+	5030 - Throttle and Trim
+		5010 00 Instructions
+		5000 02 Parts List
+		5010 10 CAD Files
+		5010 11 3D Print Files
+		5010 97 Electrical Wiring
+		5010 99 Media
+	5031 - Engine Start Panel
+	5050 - Spoilers
+	5051 - Flaps
+	5052 - Rudder Trim and Parking Brake
+	5053 - Emergency Gear Extension
+	5060 - Printer
+	5097 - Electrical Wiring
+	5099 - Media
+60 - Side Stick Box
+70 - Circuit Breakers
+115 - Flight Simulator Systems
