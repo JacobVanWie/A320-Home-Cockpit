@@ -1,6 +1,6 @@
 # A320-Home-Cockpit
 
-##A320 Home Cockpit Project by Jacob Van Wie
+## A320 Home Cockpit Project by Jacob Van Wie
 
 The objective of this project is to design, build, and maintain an Airbus A320 CFM/IAE Flight simulator using primarily 1/4" MDF boards and PLA/PETG 3D printing material. Code, Designs, Instructions, and Parts information will all be available for easy replication and collaboration.
 
