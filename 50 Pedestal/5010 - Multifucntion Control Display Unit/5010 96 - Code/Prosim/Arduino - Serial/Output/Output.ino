@@ -1,7 +1,7 @@
 String floatNumberStringInput;
 
 const String deviceIdentifier = "3";
-const int variableCount = 5;
+const int variableCount = 60;
 float floatVariable[variableCount];
 
 // Read String Variables
@@ -10,7 +10,19 @@ float floatVariable[variableCount];
 
 void setup() {
   //I/O
-  pinMode(13, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(42, OUTPUT);
+  pinMode(43, OUTPUT);
+  pinMode(44, OUTPUT);
+  pinMode(45, OUTPUT);
+  pinMode(46, OUTPUT);
+  pinMode(47, OUTPUT);
+  pinMode(48, OUTPUT);
+  pinMode(49, OUTPUT);
+  pinMode(50, OUTPUT);
+  pinMode(51, OUTPUT);
+  pinMode(52, OUTPUT);
+  pinMode(53, OUTPUT);
   //Begin Serial
   Serial.begin(9600);
   Serial.setTimeout(10);
@@ -37,11 +49,25 @@ void loop() {
     //Debug Ouput
     //Serial.print(i);Serial.print("=");Serial.print(floatVariable[i]);Serial.print(" ");
   }
-  Serial.println();
+  //Serial.println();
 
 //Hardware Output
   //APU LED
     if(floatVariable[1] == 1) {digitalWrite(13, HIGH);}else{digitalWrite(13, LOW);}
+    analogWrite(3, (floatVariable[2]/5.1));
+    digitalWrite(42, floatVariable[42]);
+    digitalWrite(43, floatVariable[43]);
+    digitalWrite(44, floatVariable[44]);
+    digitalWrite(45, floatVariable[45]);
+    digitalWrite(46, floatVariable[46]);
+    digitalWrite(47, floatVariable[47]);
+    digitalWrite(48, floatVariable[48]);
+    digitalWrite(49, floatVariable[49]);
+    digitalWrite(50, floatVariable[50]);
+    digitalWrite(51, floatVariable[51]);
+    digitalWrite(52, floatVariable[52]);
+    digitalWrite(53, floatVariable[53]);
+
   
 // DEBUG OUTPUT
  
